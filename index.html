@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="top-section">
@@ -29,7 +32,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="header-content">      
+            <div class="header-content">
                 <img src="img/logo_square_white.png" />
                 <h1 class="courgette">Cuizine</h1>
                 <h2 class="courgette">Le mag cuisine</h2>
@@ -41,84 +44,88 @@
         <div class="container">
             <div class="row mb-3">
                 <div class="col-8">
-                    <div class="row  mb-3">
+                   <div class="row  mb-3">
                         <div class="col-2 dernier-articles ">
-                            <img  class="" src="img/articles/suzette/suzette-small.jpg" alt="Logo suzette"/>
+                            <img class="" src="img/articles/suzette/suzette-small.jpg" alt="Logo suzette" />
                         </div>
-                        <div class="col-10">
+                        <div class="col-8">
                             <div class="  courgette fs-5 fw-bold">
                                 Chez Suzette, la nouvelle crêperie qui fait parler d'elle.
                             </div>
                             <p class="oswald text-secondary">
-                                La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans le quartier latin. 
-                                Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées au froment ou au sarrazin!
+                                La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier
+                                restaurant à Paris dans le quartier latin.
+                                Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées au froment ou au
+                                sarrazin!
                             </p>
+                        </div>
+                    </div>
+                    
+                    <div class="row mb-3">
+                        <div class="col-2  dernier-articles ">
+                            <img class="" src="img/articles/metro/metro-small.jpg" alt="Logo metro" />
+                        </div>
+                        <div class="col-10 ">
+                            <div class="  courgette fs-5 fw-bold">
+                                Le Métro dessert
+                            </div>
+                            <p class="oswald text-secondary ">
+                                Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier.
+                                Ils ont décidé de réunir leur deux passions dans un restaurant à la déco inspiré du
+                                métro parisien.
+                                A voir absolument, mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et
+                                nous donne son avis
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-2 dernier-articles ">
+                            <img class="" src="img/articles/vitaly/vitaly-small.jpg" alt="Logo vitaly" />
+                        </div>
+                        <div class="col-10 ">
+                            <div class="  courgette fs-5 fw-bold">
+                                Vitaly, le végan italien
+                            </div>
+                            <p class="oswald text-secondary  ">
+                                Quand on pense italien, on pense lasagne et jambon de Parme.
+                                Ils l'ont fait, les saveurs de l'Italie à portée des herbivores.
+                                Cette fois, c'est moi Tony qui vais le tester pour vous.
+                            </p>
+                        </div>
+                    </div>
+                </div> <!-- container -->
+
+                <div class="col-4">
+                    
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="courgette">Rechcerche</div>
+                                <form action="recherche" method="post"><label for="recherche">
+                                    </label><input type="email" id="email" name="email" placeholder="Votre email...">
+                                </form>
+                                <a href="#"><button class="design-bouton" type="button">OK</button></a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="courgette">Newsletter</div>
+
+                                <form action="recherche" method="post"><label for="recherche">
+                                    </label><input type="email" id="email" name="email" placeholder="Votre email...">
+                                </form>
+                                <a href="#"><button class="design-bouton" type="button">S'inscrire</button></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row mb-3">
-                <div class="col-2  dernier-articles ">
-                    <img  class=""  src="img/articles/metro/metro-small.jpg" alt="Logo suzette"/>
-                </div>
-                <div class="col-10 ">
-                    <div class="  courgette fs-5 fw-bold">
-                        Le Métro dessert
-                    </div>
-                    <p class="oswald text-secondary ">
-                        Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. 
-                        Ils ont décidé de réunir leur deux passions dans un restaurant à la déco inspiré du métro parisien. 
-                        A voir absolument, mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne son avis
-                    </p>
-                </div>
-            </div>
-
-            <div class="row mb-3">
-                <div class="col-2 dernier-articles ">
-                    <img  class=""  src="img/articles/vitaly/vitaly-small.jpg" alt="Logo suzette"/>
-                </div>
-                <div class="col-10 ">
-                    <div class="  courgette fs-5 fw-bold">
-                        Vitaly, le végan italien
-                    </div>
-                    <p class="oswald text-secondary  ">
-                        Quand on pense italien, on pense lasagne et jambon de Parme. 
-                        Ils l'ont fait, les saveurs de l'Italie à portée des herbivores. 
-                        Cette fois, c'est moi Tony qui vais le tester pour vous.
-                    </p>
-                </div>
-            </div>
-        </div> <!-- container -->
-
-        <!-- <div class="col-4">
-                <div>
-                    <div class="row">
-                        <div class="col-3">
-                            <div class="courgette">Rechcerche</div>
-                            
-                        <form action="recherche" method="post"><label for="recherche">
-                        </label><input type="email" id="email" name="email" placeholder="Votre email...">
-                        </form>
-                        <a href="#"><button class="design-bouton" type="button">M'inscrire</button></a>
-                    </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-3">
-                            <div class="courgette">Newsletter</div>
-                            
-                        <form action="recherche" method="post"><label for="recherche">
-                        </label><input type="email" id="email" name="email" placeholder="Votre email...">
-                        </form>
-                        <a href="#"><button class="design-bouton" type="button">M'inscrire</button></a>
-                    </div>
-                    </div>
-                </div> 
-            </div> -->
     </section>
 
     <footer>
 
     </footer>
 </body>
+
 </html>
