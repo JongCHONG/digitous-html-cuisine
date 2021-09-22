@@ -7,3 +7,14 @@ body{
 .container {
     
 }
+
+/* Accueil */
+
+.dernier-articles img{
+    width: 140px;
+    height: 80px;
+}
+
+.dernier-articles{
+    padding-right: 50px;
+}
