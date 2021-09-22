@@ -19,10 +19,25 @@ body{
 /* Accueil */
 
 .dernier-articles img{
-    width: 140px;
-    height: 80px;
+    width: 180px;
 }
 
-.dernier-articles{
-    padding-right: 50px;
+.articles{
+    background-color: white; /* background de la section */
+}
+
+.design-bouton{
+    background-color: white; /* style boutton */
+    border: 2px solid black;
+    border-radius: 3px;
+    color: black;
+    font-weight: bold;
+    font-size: 0.5em;
+    padding: 0.9em 9.1em;
+    cursor: pointer;
+}
+
+p .dernier-articles {
+    font-size: 2px;
+
 }
