@@ -46,13 +46,13 @@ body{
 .article img{
     width:  180px;
 }
-.article input{
+.article input, .recherche input{
     padding: 8px;
     width: 100%;
     border-radius: 5px;
     border: 1px solid lightgray;
 }
-.article button {
+.article button, .recherche button  {
     color: black;
     width: 100%;
     background-color: white;
