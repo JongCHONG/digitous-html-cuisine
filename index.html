@@ -58,11 +58,53 @@
                     </p>
                 </div>
                 <div class="col-2">
-                    Hello
+                    <div class="courgette">Recherche</div>
+                    <form action="recherche" method="post"><label for="recherche">
+                        </label><input type="recherche" class="fw-bold" id="recherche" name="recherche" placeholder="Recherche...">
+                    </form>
+                    <a href="#"><button class="design-bouton" type="button">OK</button></a>
                 </div>
             </div>
-        
-        
+            <div class="row article my-3">
+                <div class="col-2">
+                    <img src="img/articles/metro/metro-small.jpg" alt="Logo metro" />
+                </div>
+                <div class="col-8">
+                    <h2 class="courgette fs-3">
+                        Le Métro dessert
+                    </h2>
+                    <p class="text-secondary">
+                        Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier.
+                        Ils ont décidé de réunir leur deux passions dans un restaurant à la déco inspiré du
+                        métro parisien.
+                        A voir absolument, mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et
+                        nous donne son avis.
+                    </p>
+                </div>
+                <div class="col-2">
+                    <div class="courgette">Newsletter</div>
+                    <form action="Newsletter" method="post"><label for="Newsletter">
+                        </label><input type="Newsletter" class="fw-bold" id="Newsletter" name="Newsletter" placeholder="Email...">
+                    </form>
+                    <a href="#"><button class="design-bouton" type="button">S'inscrire</button></a>
+                </div>
+            </div>
+            <div class="row article my-3">
+                <div class="col-2">
+                    <img src="img/articles/vitaly/vitaly-small.jpg" alt="Logo vitaly" />
+                </div>
+                <div class="col-8">
+                    <h2 class="courgette fs-3">
+                        Vitaly, le végan italien
+                    </h2>
+                    <p class="text-secondary">
+                        Quand on pense italien, on pense lasagne et jambon de Parme.
+                        Ils l'ont fait, les saveurs de l'Italie à portée des herbivores.
+                        Cette fois, c'est moi Tony qui vais le tester pour vous.
+                    </p>
+                </div>
+            </div>
+            <p class="text-secondary">Voir les articles précédents</p>
         </div>
     </section>
     <!-- <section class="articles pt-4">
@@ -149,7 +191,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-4 ">
+                <div class="col-4">
                     <div class="flex-column">
                         <h2 class="courgette">Catégories</h2>
                         <a href="#" class="oswald d-block text-white">Revues</a>
@@ -164,7 +206,14 @@
                     <a href="#" class="oswald d-block text-white">2017</a>
                 </div>
                 <div class="col-4">
-                    <h2 class="courgette">Newsletter</h2>
+                    <h2 class="courgette fs-5">Newsletter</h2>
+                    <div class="newsletter d-flex">
+                        <form action="Newsletter" method="post"><label for="Newsletter">
+                            </label><input type="Newsletter" class="fw-bold" id="Newsletter" name="Newsletter" placeholder="Email...">
+                        </form>
+                        <a href="#"><button class="design-bouton" type="button">S'inscrire</button></a>
+                    </div>
+                    <h2 class="courgette fs-5 mt-2">Partager</h2>
                 </div>
             </div>
         </div>

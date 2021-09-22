@@ -46,14 +46,41 @@ body{
 .article img{
     width:  180px;
 }
-.dernier-articles img{
+.article input{
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+.article button {
+    color: black;
+    width: 100%;
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+.newsletter input {
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    border-color: white;
+}
+.newsletter button {
+    color: white;
+    width: 100%;
+    background-color: black;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+/* .dernier-articles img{
     width: 180px;
-}
-.articles{
-    background-color: white; /* background de la section */
-}
-.design-bouton{
-    background-color: white; /* style boutton */
+} */
+/* .design-bouton{
+    background-color: white;
     border: 2px solid black;
     border-radius: 3px;
     color: black;
@@ -61,10 +88,10 @@ body{
     font-size: 0.5em;
     padding: 0.9em 9.1em;
     cursor: pointer;
-}
-p .dernier-articles {
+} */
+/* p .dernier-articles {
     font-size: 2px;
-}
+} */
 footer{
     background-color: black;
     color: white;
