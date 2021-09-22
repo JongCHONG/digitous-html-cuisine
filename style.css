@@ -7,7 +7,7 @@
     font-family: Courgette;
 }
 body{
-
+    font-family: Oswald;
 }
 .navbar {
     border-bottom: solid 2px white;
@@ -43,14 +43,15 @@ body{
 
 /* Accueil */
 
+.article img{
+    width:  180px;
+}
 .dernier-articles img{
     width: 180px;
 }
-
 .articles{
     background-color: white; /* background de la section */
 }
-
 .design-bouton{
     background-color: white; /* style boutton */
     border: 2px solid black;
@@ -61,10 +62,8 @@ body{
     padding: 0.9em 9.1em;
     cursor: pointer;
 }
-
 p .dernier-articles {
     font-size: 2px;
-
 }
 footer{
     background-color: black;
