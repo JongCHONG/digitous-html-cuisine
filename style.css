@@ -20,6 +20,12 @@ body{
     background-position: center;
     height: 500px;
 }
+.top-section-team{
+    position: relative;
+    background-image: url("img/team/team.jpg");
+    background-position: center;
+    height: 500px;
+}
 .top-section-paella {
     position: relative;
     background-image: url("img/recipes/paella/paella-header.jpg");

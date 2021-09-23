@@ -13,29 +13,29 @@
 
 <body>
     <header>
-        <div class="top-section">
+        <div class="top-section-team">
             <div class="filter"></div>
             <div class="navbar courgette text-white">
                 <h1>Cui'zine</h1>
                 <ul class="nav oswald justify-content-end">
                     <li class="nav-item">
-                        <a class="text-white nav-link active" aria-current="page" href="#">Accueil</a>
+                        <a class="text-secondary nav-link active" aria-current="page" href="index.html">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="text-secondary nav-link" href="#">Equipe</a>
+                        <a class="text-white nav-link" href="team.html">Equipe</a>
                     </li>
                     <li class="nav-item">
-                        <a class="text-secondary nav-link" href="#">Blog</a>
+                        <a class="text-secondary nav-link" href="post.html">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="text-secondary nav-link">Contact</a>
+                        <a class="text-secondary nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
             <div class="header-content">
                 <img src="img/logo_square_white.png" />
-                <h1 class="courgette">Cuizine</h1>
-                <h2 class="courgette">Le mag cuisine</h2>
+                <h1 class="courgette">On apprend en enseignant</h1>
+                <h2 class="courgette">Un pour tous et tous pour un</h2>
             </div>
         </div>
     </header>
@@ -43,7 +43,7 @@
     <section>
         <div class="container py-4">
             <div class=" row mb-2 team">
-                <div class="col-4">
+                <div class="col-lg-3">
                     <img class="" src="img/team/tony.jpg"/>
                     <div class="courgette ps-5">
                        Tony 
@@ -51,31 +51,6 @@
                     <p class="ps-4">
                         Rédacteur en chef
                     </p>
-                </div>
-
-                <div class="col-4">
-                    <img src="img/team/clementine.jpg"/>
-                    <div class="courgette ps-4">
-                        Clementine
-                    </div>
-                    <p class="ps-3">
-                        Journaliste culinaire
-                    </p>
-                </div>
-
-                <div class="col-4">
-                    <img src="img/team/antoine.jpg"/>
-                    <div class="courgette ps-5">
-                       Antoine 
-                    </div>
-                    <p class="ps-3">
-                        Gouteur professionnel
-                    </p>
-                </div>
-            </div>
-            
-            <div class=" row mb-5 team">
-                <div class="col-4 ">
                     <img src="img/team/tony.jpg"/>
                     <div class="courgette ps-5">
                         Tony 
@@ -84,8 +59,14 @@
                         Rédacteur en chef
                     </p>
                 </div>
-
-                <div class="col-4">
+                <div class="col-lg-3">
+                    <img src="img/team/clementine.jpg"/>
+                    <div class="courgette ps-4">
+                        Clementine
+                    </div>
+                    <p class="ps-3">
+                        Journaliste culinaire
+                    </p>
                     <img src="img/team/clementine.jpg"/>
                     <div class="courgette ps-4">
                         Clementine
@@ -94,8 +75,14 @@
                         Journaliste culinaire
                     </P>
                 </div>
-
-                <div class="col-4">
+                <div class="col-lg-3">
+                    <img src="img/team/antoine.jpg"/>
+                    <div class="courgette ps-5">
+                       Antoine 
+                    </div>
+                    <p class="ps-3">
+                        Gouteur professionnel
+                    </p>
                     <img src="img/team/antoine.jpg"/>
                     <div class="courgette ps-5">
                         Antoine 
@@ -104,8 +91,21 @@
                         Gouteur professionnel
                     </p>
                 </div>
+                <div class="col-2 recherche">
+                    <div class="courgette">Recherche</div>
+                    <form action="recherche" method="post"><label for="recherche">
+                        </label><input type="recherche" class="fw-bold" id="recherche" name="recherche" placeholder="Recherche...">
+                    </form>
+                    <a href="#"><button class="design-bouton" type="button">OK</button></a>
+                    <div class="news">
+                        <div class="courgette">Newsletter</div>
+                        <form action="Newsletter" method="post"><label for="Newsletter">
+                            </label><input type="Newsletter" class="fw-bold" id="Newsletter" name="Newsletter" placeholder="Email...">
+                        </form>
+                        <a href="#"><button class="design-bouton" type="button">S'inscrire</button></a>
+                    </div>
+                </div>
             </div>
-
         </div>
     </section>
 
@@ -127,7 +127,14 @@
                     <a href="#" class="oswald d-block text-white">2017</a>
                 </div>
                 <div class="col-4">
-                    <h2 class="courgette">Newsletter</h2>
+                    <h2 class="courgette fs-5">Newsletter</h2>
+                    <div class="newsletter d-flex">
+                        <form action="Newsletter" method="post"><label for="Newsletter">
+                            </label><input type="Newsletter" class="fw-bold" id="Newsletter" name="Newsletter" placeholder="Email...">
+                        </form>
+                        <a href="#"><button class="design-bouton" type="button">S'inscrire</button></a>
+                    </div>
+                    <h2 class="courgette fs-5 mt-2">Partager</h2>
                 </div>
             </div>
         </div>
