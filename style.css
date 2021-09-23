@@ -115,7 +115,7 @@ footer{
 }
 
 .taille{
-    width: 100px;
+    width: 120px;
     padding:5px;
     text-align: center;
 
@@ -125,9 +125,10 @@ footer{
     background-color: gray;
     width:max-content;
     border-radius: 20px;
-    padding:4px 18px;
+    padding:4px 16px;
     margin-left: 2px;
     color:white;
+    height: 40px;
 }
 /* Team */
 
