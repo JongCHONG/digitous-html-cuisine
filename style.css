@@ -129,9 +129,6 @@ footer{
     margin-left: 2px;
     color:white;
 }
-
-
-
 /* Team */
 
 .team img{
@@ -144,4 +141,10 @@ footer{
 .team-member img{
     width:  220px;
     border-radius: 100px;
+}
+.maj {
+    font-size: 70px;
+}
+.post-auteur img {
+    width: 200px;
 }
