@@ -70,3 +70,41 @@ footer{
     color: white;
     padding: 10px;
 }
+
+/* Recipe */
+
+.recipe img{
+    width:  190px;
+}
+
+.taille{
+    width: 100px;
+    padding:5px;
+    text-align: center;
+
+}
+
+.ingredient{
+    background-color: gray;
+    width:max-content;
+    border-radius: 20px;
+    padding:4px 18px;
+    margin-left: 2px;
+    color:white;
+}
+
+
+
+/* Team */
+
+.team img{
+    width:  140px;
+    border-radius: 100px;
+}
+
+/* Team-member */
+
+.team-member img{
+    width:  220px;
+    border-radius: 100px;
+}
