@@ -100,11 +100,23 @@ body{
         width: 100%;
         margin-bottom: 10px;
     }
+    .ingre {
+        flex-wrap: nowrap;
+    }
+    .recipe img {
+        width: 170px;
+    }
 }
 @media screen and (max-width: 576px) {
     .article img {
         width: 100%;
         margin-bottom: 10px;
+    }
+    .ingre {
+       flex-wrap: nowrap;
+    }
+    .recipe img {
+        width: 170px;
     }
 }
 footer{
