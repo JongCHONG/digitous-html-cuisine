@@ -20,6 +20,12 @@ body{
     background-position: center;
     height: 500px;
 }
+.top-section-paella {
+    position: relative;
+    background-image: url("img/recipes/paella/paella-header.jpg");
+    background-position: center;
+    height: 500px;
+}
 .top-section-post {
     position: relative;
     background-image: url("img/articles/suzette/suzette-header.jpg");
@@ -108,13 +114,13 @@ footer{
 }
 /* Recipe */
 .recipe img{
-    width:  190px;
+    width:  400px;
 }
 .taille{
-    width: 120px;
+    width: 200px;
     padding:5px;
     text-align: center;
-
+    background-color: lightgray;
 }
 .ingredient{
     background-color: gray;
