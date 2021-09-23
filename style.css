@@ -146,6 +146,20 @@ footer{
 .maj {
     font-size: 70px;
 }
+.post-auteur {
+    margin: 50px;
+    padding: 50px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.auteur {
+    width: 60%;
+    margin: auto;
+}
 .post-auteur img {
     width: 200px;
+}
+.formulaire{
+    width: 60%;
+    margin: auto;
 }
