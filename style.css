@@ -10,7 +10,7 @@ body{
     font-family: Oswald;
     font-size: 20px;
 }
-a{
+.team a{
     text-decoration: none;
     color:gray;
 }
