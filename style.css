@@ -81,6 +81,18 @@ body{
     font-weight: bold;
     border: 1px solid black;
 }
+.select:hover{
+    border: 1px solid lightgray;
+}
+.select a{
+    text-decoration: none;
+}
+.nav-link{
+    color: gray;
+}
+.nav-link:hover{
+    color: white;
+}
 .newsletter input {
     padding: 8px;
     width: 100%;
@@ -204,4 +216,7 @@ footer{
     .header-content h1 {
         text-align: center;
     }
+}
+i{
+    margin-right: 20px;
 }
