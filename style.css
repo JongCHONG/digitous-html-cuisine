@@ -32,6 +32,18 @@ body{
     background-position: center;
     height: 500px;
 }
+.top-section-metro {
+    position: relative;
+    background-image: url("img/articles/metro/metro-header.jpg");
+    background-position: center;
+    height: 500px;
+}
+.top-section-vitaly {
+    position: relative;
+    background-image: url("img/articles/vitaly/vitaly-header.jpg");
+    background-position: center;
+    height: 500px;
+}
 .top-section-post {
     position: relative;
     background-image: url("img/articles/suzette/suzette-header.jpg");
